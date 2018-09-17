@@ -1,1 +1,18 @@
 @import "abstracts/mixins";
+
+@import "abstracts/variables";
+
+
+body {
+  color: $light_gray;
+  background: $dark_gray;
+}
+
+
+.box {
+  @include grid-unit(12);
+  color: green;
+ 
+
+}
+
