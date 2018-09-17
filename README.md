@@ -1,7 +1,7 @@
 # grid-framework-with-sass
 A grid framework built on SASS
 
-# Authors
+## Authors
 
 [Chibuzor Efedigbue](https://www.github.com/uzorjchibuzor)
 
