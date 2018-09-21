@@ -6,28 +6,41 @@
 
 @import "layout/grid";
 
-body {
-  color: $black;
-  margin: 0;
-}
 
 
 .banner{
   position: relative;
-  height: 426px;
+  max-height: 426px;
 }
 
 .myVideo{
   width: 100%;
-  // height: 100%;
-}
 
-.navbar{
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .navbar-nav{
-  float:right;
+  position: absolute;
+  top: 0;
+  right: $main_margin;
+  width: 100%;
+
+  ul{
+    margin-top: $small_margin;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,cantarell,open sans,helvetica neue,ubuntu,sans-serif;
+    width: auto;
+    text-align: right;
+  }
+
+  .nav-items {
+   
+    display: inline-block;
+    margin-right: $main_margin;
+
+    a{
+      text-decoration: none;
+      color: $light-gray;
+    }
+  }
+  
 }
+

@@ -2,19 +2,87 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -24,25 +92,40 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
 body {
   line-height: 1;
+  color: #1e1e1e;
+  margin: 0;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: "";
   content: none;
 }
@@ -69,6 +152,8 @@ table {
   width: 100%;
   margin-bottom: 1%;
   height: 50px;
+  position: absolute;
+  top: 0;
 }
 
 .container {
@@ -83,7 +168,7 @@ table {
 
 .row {
   width: 100%;
-  margin: 1% 0;
+  margin: 2% 0;
   display: flex;
 }
 
@@ -219,28 +304,34 @@ table {
   margin-right: 0;
 }
 
-body {
-  color: #000;
-  margin: 0;
-}
-
 .banner {
   position: relative;
-  height: 426px;
+  max-height: 426px;
 }
 
 .myVideo {
   width: 100%;
 }
 
-.navbar {
+.navbar-nav {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 2%;
+  width: 100%;
 }
-
-.navbar-nav {
-  float: right;
+.navbar-nav ul {
+  margin-top: 1%;
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, cantarell, open sans, helvetica neue, ubuntu, sans-serif;
+  width: auto;
+  text-align: right;
+}
+.navbar-nav .nav-items {
+  display: inline-block;
+  margin-right: 2%;
+}
+.navbar-nav .nav-items a {
+  text-decoration: none;
+  color: #e4e5e6;
 }
 
 /*# sourceMappingURL=main.css.map */
