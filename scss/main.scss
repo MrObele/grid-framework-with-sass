@@ -121,15 +121,41 @@
   width: 100%;
 
   i.fa-twitter {
-    padding: .5%;
+    padding: .3%;
     background: #1b95e0;
-    color: $dark_gray;
+    color: #fff;
+    border-radius: 5px;
   }
 
   i.fa-thumbs-up {
-    padding: .5%;
+    padding: .3%;
     background: #4E6692;
-    color: $dark_gray;
+    color: #fff;
+    border-radius: 5px;
   }
+  .right-content{
+    position: absolute;
+    right: $main_margin;
+    top: 0;
+    padding: .4%;
+    border: 1px solid  $light_gray;
+    width: auto;
+    &:hover{
+      border: 1px solid  #fff;
+    }
+    a{
+      color: $light_gray;
+      text-decoration: none;
+
+      &:hover{
+        color: #fff;
+      }
+      i{
+        font-size: 10px;
+      }
+    }
+
+  }
+
 }
 

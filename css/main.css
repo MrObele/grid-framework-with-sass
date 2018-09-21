@@ -403,14 +403,37 @@ table {
   width: 100%;
 }
 .header-bottom i.fa-twitter {
-  padding: 0.5%;
+  padding: 0.3%;
   background: #1b95e0;
-  color: #858586;
+  color: #fff;
+  border-radius: 5px;
 }
 .header-bottom i.fa-thumbs-up {
-  padding: 0.5%;
+  padding: 0.3%;
   background: #4E6692;
-  color: #858586;
+  color: #fff;
+  border-radius: 5px;
+}
+.header-bottom .right-content {
+  position: absolute;
+  right: 2%;
+  top: 0;
+  padding: 0.4%;
+  border: 1px solid #e4e5e6;
+  width: auto;
+}
+.header-bottom .right-content:hover {
+  border: 1px solid #fff;
+}
+.header-bottom .right-content a {
+  color: #e4e5e6;
+  text-decoration: none;
+}
+.header-bottom .right-content a:hover {
+  color: #fff;
+}
+.header-bottom .right-content a i {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
