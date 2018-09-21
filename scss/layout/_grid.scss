@@ -1,0 +1,133 @@
+
+
+.navbar{
+  width: 100%;
+  margin-bottom: 1%;
+  height: 50px;
+  background: $light_gray;
+}
+.container {
+ width: 98%;
+ height: auto;
+ margin: 0 auto;
+}
+
+.row {
+ width: 100%;
+ margin: $main_margin 0;
+ display: flex;
+}
+
+.box-1 {
+ @include grid-unit(1);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+
+
+
+.box-2 {
+ @include grid-unit(2);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-3 {
+ @include grid-unit(3);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-4 {
+ @include grid-unit(4);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+
+.box-5 {
+ @include grid-unit(5);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-6 {
+ @include grid-unit(6);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-7 {
+ @include grid-unit(7);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-8 {
+ @include grid-unit(8);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-9 {
+ @include grid-unit(9);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-10 {
+ @include grid-unit(10);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+.box-11 {
+ @include grid-unit(11);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
+
+.box-12 {
+ @include grid-unit(12);
+ background: $light_gray;
+ height: 50px;
+
+ &:last-child{
+   margin-right: 0;
+ }
+}
