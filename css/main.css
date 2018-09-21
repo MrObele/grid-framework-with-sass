@@ -334,4 +334,29 @@ table {
   color: #e4e5e6;
 }
 
+.header-center {
+  position: absolute;
+  top: 34%;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+.header-center img, .header-center p, .header-center input {
+  margin-bottom: 1%;
+}
+.header-center p > a.learn-more {
+  text-decoration: underline;
+  font-size: 18px;
+}
+.header-center p > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-botttom {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */

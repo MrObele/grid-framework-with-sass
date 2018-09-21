@@ -44,3 +44,28 @@
   
 }
 
+.header-center{
+  position: absolute;
+  top: 34%;
+  text-align: center;
+  width: 100%;
+  color: white;
+  img, p, input{
+  margin-bottom: $small_margin;
+  }
+  p>a.learn-more{
+    text-decoration: underline;
+    font-size: 18px;
+  }
+   p>a{
+    text-decoration: none;
+    color: inherit;
+   }
+}
+
+.header-botttom{
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+}
+
