@@ -3,7 +3,7 @@
   }
 
   @mixin grid-unit($span) {
-    float: left;
+    display: flex;
     margin-right: $gutter-width;
     width: ($column-width * $span) + ($gutter-width * ($span - 1));
   }
