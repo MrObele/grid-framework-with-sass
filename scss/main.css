@@ -5,9 +5,19 @@ body {
 
 .box {
   float: left;
-  margin-right: 20px;
-  width: 1660px;
-  color: green;
+  margin-right: 1.0638297872%;
+  width: 32.2695035461%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.container {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 98.9361702128%;
+  background: #e4e5e6;
+  height: 100px;
+  margin: 0 auto !important;
 }
 
 /*# sourceMappingURL=main.css.map */

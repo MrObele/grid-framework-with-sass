@@ -10,9 +10,15 @@ body {
 
 
 .box {
-  @include grid-unit(12);
-  color: green;
- 
+  @include grid-unit(4);
+  background:$light_gray;
+  height: 50px;
+}
 
+.container {
+  @include grid-unit(12);
+  background: $light_gray;
+  height: 100px;
+  margin: 0 auto !important;
 }
 
