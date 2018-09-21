@@ -1,0 +1,117 @@
+body {
+  color: #e4e5e6;
+  background: #1e1e1e;
+}
+
+.container {
+  width: 98.9361702128%;
+  background: #1e1e1e;
+  height: auto;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  margin: 20px 0;
+}
+.row::after {
+  clear: both;
+}
+
+.box-1 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 7.2695035461%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-2 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 15.6028368794%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-3 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 23.9361702128%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-4 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 32.2695035461%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-5 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 40.6028368794%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-6 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 48.9361702128%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-7 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 57.2695035461%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-8 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 65.6028368794%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-9 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 73.9361702128%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-10 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 82.2695035461%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-11 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 90.6028368794%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+.box-12 {
+  float: left;
+  margin-right: 1.0638297872%;
+  width: 98.9361702128%;
+  background: #e4e5e6;
+  height: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

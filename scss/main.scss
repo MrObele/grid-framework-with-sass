@@ -8,17 +8,83 @@ body {
   background: $dark_gray;
 }
 
+.container {
+  @include grid-unit-main(12);
+  background: $dark_gray;
+  height: auto;
+  margin: 0 auto;
+}
 
-.box {
+.row{
+  width: 100%;
+  margin: $main_margin 0;
+  &::after {
+    clear: both;
+  }
+}
+
+.box-1 {
+  @include grid-unit(1);
+  background:$light_gray;
+  height: 50px;
+}
+
+.box-2 {
+  @include grid-unit(2);
+  background:$light_gray;
+  height: 50px;
+}
+.box-3 {
+  @include grid-unit(3);
+  background:$light_gray;
+  height: 50px;
+}
+.box-4 {
   @include grid-unit(4);
   background:$light_gray;
   height: 50px;
 }
 
-.container {
-  @include grid-unit(12);
-  background: $light_gray;
-  height: 100px;
-  margin: 0 auto !important;
+.box-5 {
+  @include grid-unit(5);
+  background:$light_gray;
+  height: 50px;
 }
+.box-6 {
+  @include grid-unit(6);
+  background:$light_gray;
+  height: 50px;
+}
+.box-7 {
+  @include grid-unit(7);
+  background:$light_gray;
+  height: 50px;
+}
+.box-8 {
+  @include grid-unit(8);
+  background:$light_gray;
+  height: 50px;
+}
+.box-9 {
+  @include grid-unit(9);
+  background:$light_gray;
+  height: 50px;
+}
+.box-10 {
+  @include grid-unit(10);
+  background:$light_gray;
+  height: 50px;
+}
+.box-11 {
+  @include grid-unit(11);
+  background:$light_gray;
+  height: 50px;
+}
+.box-12 {
+  @include grid-unit(12);
+  background:$light_gray;
+  height: 50px;
+}
+
+
 
