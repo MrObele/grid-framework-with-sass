@@ -11,8 +11,14 @@
 .container {
  width: 98%;
  height: auto;
- margin: 0 auto;
+ margin: $main_margin auto;
 }
+
+.container-sm {
+  width: 90%;
+  height: auto;
+  margin: $main_margin auto;
+ }
 
 .full-container {
   width: 100%;
