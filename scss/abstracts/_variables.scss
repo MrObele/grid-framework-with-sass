@@ -1,11 +1,13 @@
 $dark_gray: #1e1e1e;
 $light_gray: #e4e5e6;
+$black: #000;
+$white: #fff;
 
-$main_padding: 20px;
-$small_padding: 10px;
+$main_padding: 1%;
+$small_padding: .5%;
 
-$main_margin: 20px;
-$small_margin: 10px;
+$main_margin: 1%;
+$small_margin: .5%;
 
 $column-width: percentage((820/12 / 940));   // 12 columns = 720px
 $gutter-width: percentage((120/11) / 940);   // 11 gutters = 220px

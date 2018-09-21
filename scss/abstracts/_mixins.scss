@@ -1,4 +1,6 @@
 @mixin grid-unit-main($span) {
+    margin-right: $gutter-width;
+    margin-left: $gutter-width;
     width: ($column-width * $span) + ($gutter-width * ($span - 1));
   }
 

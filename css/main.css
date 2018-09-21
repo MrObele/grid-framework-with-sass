@@ -1,18 +1,25 @@
 body {
-  color: black;
+  color: #000;
   background: #1e1e1e;
+  margin: 0;
+}
+
+.navbar {
+  width: 100%;
+  margin-bottom: 1%;
+  height: 50px;
+  background: #e4e5e6;
 }
 
 .container {
-  width: 100%;
-  background: #1e1e1e;
+  width: 98%;
   height: auto;
   margin: 0 auto;
 }
 
 .row {
   width: 100%;
-  margin: 20px 0;
+  margin: 1% 0;
   display: flex;
 }
 

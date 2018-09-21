@@ -3,16 +3,21 @@
 @import "abstracts/variables";
 
 body {
-  color: black;
+  color: $black;
   background: $dark_gray;
+  margin: 0;
 }
 
+.navbar{
+   width: 100%;
+   margin-bottom: 1%;
+   height: 50px;
+   background: $light_gray;
+}
 .container {
-  @include grid-unit-main(12);
-  background: $dark_gray;
+  width: 98%;
   height: auto;
   margin: 0 auto;
-
 }
 
 .row {
