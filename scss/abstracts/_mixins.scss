@@ -9,3 +9,10 @@
     margin-right: $gutter-width;
     width: ($column-width * $span) + ($gutter-width * ($span - 1));
   }
+
+  @mixin clearfix {
+    &::after {
+         content: "";
+         clear: both;
+     }
+ }

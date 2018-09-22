@@ -171,6 +171,10 @@ table {
 .full-container {
   width: 100%;
 }
+.full-container::after {
+  content: "";
+  clear: both;
+}
 
 .row {
   width: 100%;
