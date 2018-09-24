@@ -179,6 +179,7 @@ table {
 .row {
   width: 100%;
   margin: 1% 0;
+  display: flex;
 }
 
 .box-1 {
@@ -304,11 +305,18 @@ table {
 
 .banner {
   position: relative;
-  max-height: 426px;
+  min-height: 426px;
+  overflow: hidden;
 }
 
 .myVideo {
   width: 100%;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .myVideo {
+    width: auto;
+  }
 }
 
 .navbar-nav {
@@ -330,6 +338,19 @@ table {
 .navbar-nav .nav-items a {
   text-decoration: none;
   color: #e4e5e6;
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-items {
+    display: none;
+  }
+}
+.navbar-nav .nav-items.menu-clicker {
+  display: none;
+}
+@media (max-width: 768px) {
+  .navbar-nav .nav-items.menu-clicker {
+    display: block;
+  }
 }
 
 .header-center {
@@ -362,6 +383,16 @@ table {
 .header-center p.popular-search-links a:hover {
   color: #fff;
 }
+@media (max-width: 768px) {
+  .header-center p.popular-search-links {
+    width: 50%;
+  }
+}
+@media (max-width: 375px) {
+  .header-center p.popular-search-links {
+    width: 100%;
+  }
+}
 .header-center p > a {
   text-decoration: none;
   color: inherit;
@@ -390,14 +421,21 @@ table {
   right: 0;
   background: #fff;
   border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .header-center form button i {
   color: #858586;
 }
+@media (max-width: 768px) {
+  .header-center form {
+    width: 60%;
+  }
+}
 
 .header-bottom {
   position: absolute;
-  bottom: 2%;
+  bottom: 8%;
   width: 100%;
 }
 .header-bottom i.fa-twitter {
@@ -432,6 +470,11 @@ table {
 }
 .header-bottom .right-content a i {
   font-size: 10px;
+}
+@media (max-width: 768px) {
+  .header-bottom {
+    display: none;
+  }
 }
 
 .image-preview {
@@ -482,6 +525,12 @@ table {
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(3, 1fr);
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
