@@ -472,4 +472,16 @@ table {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
+.three-columns {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(333.3333333333px, 1fr));
+}
+
+.columns {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /*# sourceMappingURL=main.css.map */
