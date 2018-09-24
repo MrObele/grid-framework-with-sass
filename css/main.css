@@ -178,7 +178,7 @@ table {
 
 .row {
   width: 100%;
-  margin: 2% 0;
+  margin: 1% 0;
   display: flex;
 }
 
@@ -198,7 +198,6 @@ table {
   margin-right: 1.1605415861%;
   width: 15.6995486783%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-2:last-child {
   margin-right: 0;
@@ -209,7 +208,6 @@ table {
   margin-right: 1.1605415861%;
   width: 24.1295938104%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-3:last-child {
   margin-right: 0;
@@ -220,7 +218,6 @@ table {
   margin-right: 1.1605415861%;
   width: 32.5596389426%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-4:last-child {
   margin-right: 0;
@@ -231,7 +228,6 @@ table {
   margin-right: 1.1605415861%;
   width: 40.9896840748%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-5:last-child {
   margin-right: 0;
@@ -242,7 +238,6 @@ table {
   margin-right: 1.1605415861%;
   width: 49.419729207%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-6:last-child {
   margin-right: 0;
@@ -253,7 +248,6 @@ table {
   margin-right: 1.1605415861%;
   width: 57.8497743391%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-7:last-child {
   margin-right: 0;
@@ -264,7 +258,6 @@ table {
   margin-right: 1.1605415861%;
   width: 66.2798194713%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-8:last-child {
   margin-right: 0;
@@ -275,7 +268,6 @@ table {
   margin-right: 1.1605415861%;
   width: 74.7098646035%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-9:last-child {
   margin-right: 0;
@@ -286,7 +278,6 @@ table {
   margin-right: 1.1605415861%;
   width: 83.1399097357%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-10:last-child {
   margin-right: 0;
@@ -297,7 +288,6 @@ table {
   margin-right: 1.1605415861%;
   width: 91.5699548678%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-11:last-child {
   margin-right: 0;
@@ -308,7 +298,6 @@ table {
   margin-right: 1.1605415861%;
   width: 100%;
   background: #e4e5e6;
-  height: 50px;
 }
 .box-12:last-child {
   margin-right: 0;
@@ -444,6 +433,31 @@ table {
 }
 .header-bottom .right-content a i {
   font-size: 10px;
+}
+
+.box-4 img {
+  width: 100%;
+}
+
+.image-preview {
+  position: relative;
+}
+.image-preview img.small-images {
+  height: 70px;
+}
+.image-preview p {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 2%;
+  width: 100%;
+}
+.image-preview p .left-text {
+  float: left;
+  font-weight: 600;
+}
+.image-preview p .right-text {
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */
