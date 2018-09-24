@@ -16,3 +16,12 @@
          clear: both;
      }
  }
+
+
+
+ @mixin column-unit($span) {
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: repeat(auto-fit, minmax(1000px / $span , 1fr));
+ }
+

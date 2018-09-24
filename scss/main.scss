@@ -158,12 +158,14 @@
 
 }
 
-.box-4 img{
-  width: 100%;
-}
+
 
 .image-preview{
   position: relative;
+
+  img{
+    width: 100%;
+  }
 
   img.small-images{
     height: 70px;
@@ -184,5 +186,22 @@
   }
 }
 
+.more-videos {
+  text-align: right;
+  
+  a {
+    color: inherit;
+    font-size: 12px;
+  }
+} 
 
+
+
+
+
+
+
+.four-columns {
+  @include column-unit(4);
+}
 

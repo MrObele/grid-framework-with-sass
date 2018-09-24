@@ -179,7 +179,6 @@ table {
 .row {
   width: 100%;
   margin: 1% 0;
-  display: flex;
 }
 
 .box-1 {
@@ -435,12 +434,11 @@ table {
   font-size: 10px;
 }
 
-.box-4 img {
-  width: 100%;
-}
-
 .image-preview {
   position: relative;
+}
+.image-preview img {
+  width: 100%;
 }
 .image-preview img.small-images {
   height: 70px;
@@ -458,6 +456,20 @@ table {
 }
 .image-preview p .right-text {
   float: right;
+}
+
+.more-videos {
+  text-align: right;
+}
+.more-videos a {
+  color: inherit;
+  font-size: 12px;
+}
+
+.four-columns {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 /*# sourceMappingURL=main.css.map */
