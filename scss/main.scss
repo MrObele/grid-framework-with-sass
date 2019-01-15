@@ -69,7 +69,7 @@
   text-align: center;
   width: 100%;
   color: white;
-  img, p, form, h3{
+  img, p, .search-free, h3{
   margin-bottom: $small_margin;
   }
 
@@ -109,7 +109,7 @@
     color: inherit;
    }
 
-   form {
+   .search-free {
      position: relative;
   
      width: 40%;
