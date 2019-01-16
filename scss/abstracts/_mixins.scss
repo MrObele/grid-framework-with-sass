@@ -1,0 +1,27 @@
+@mixin grid-unit-main($span) {
+    margin-right: $gutter-width;
+    margin-left: $gutter-width;
+    width: ($column-width * $span) + ($gutter-width * ($span - 1));
+  }
+
+  @mixin grid-unit($span) {
+    display: flex;
+    margin-right: $gutter-width;
+    width: ($column-width * $span) + ($gutter-width * ($span - 1));
+  }
+
+  @mixin clearfix {
+    &::after {
+         content: "";
+         clear: both;
+     }
+ }
+
+
+
+ @mixin column-unit($span) {
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: repeat(auto-fit, minmax(940px / $span , 1fr));
+ }
+
